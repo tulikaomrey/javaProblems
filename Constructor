@@ -1,0 +1,17 @@
+//constructor
+
+class Machine{
+    private String name;
+    public Machine()
+    {
+        System.out.println("constructor running !");
+       
+    }
+}
+class HelloWorld {
+    public static void main(String[] args) {
+    
+        Machine machine1=new Machine();
+        new Machine();
+    }
+}
