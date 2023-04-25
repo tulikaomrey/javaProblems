@@ -1,0 +1,29 @@
+//Getters and Returns
+
+class Person
+{
+    String name;
+    int age;
+    
+    void speak()
+    {
+        System.out.println("My name is :" +name + "My age is :" +age);
+    }
+    void calculateRetirement()
+    {
+      int yearsleft=65-age;
+      System.out.println("yearsleft");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+    
+        Person person2=new Person();
+        person2.age=23;
+        person2.speak();
+        person2.calculateRetirement();
+        
+       
+    }
+}
