@@ -1,0 +1,26 @@
+//methods
+
+class Person
+{
+    String name;
+    int age;
+    
+    void speak() //method
+    {
+        System.out.println("My name is :" +name + "My age is :" +age);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Person person1=new Person();
+        person1.name="Tulika";
+        person1.age=21;
+        Person person2=new Person();
+        person2.name="Anushka";
+        person2.age=23;
+        System.out.println("person1.name");
+        person2.speak();
+        
+       
+    }
