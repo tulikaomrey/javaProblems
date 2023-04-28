@@ -1,0 +1,32 @@
+//constructor invoke
+
+class Machine{
+    private int code;
+    private String name;
+    public Machine()
+    {
+    this("arnie",0); //we want to invoke third constructor here for that we have to use "this"
+        System.out.println("constructor running !");
+        
+       
+    }
+    public Machine(String name)
+    {
+        System.out.println("second constructor running");
+        this.name=name;
+    }
+    public Machine (String name , int code)
+    {
+        System.out.println("third constructor running");
+    this.name=name;
+    this.code=code;
+    }
+}
+class HelloWorld {
+    public static void main(String[] args) {
+    
+        Machine machine1=new Machine();
+        Machine machine2= new Machine("bertii");
+        Machine machine3= new Machine("annie" , 7);
+    }
+}
