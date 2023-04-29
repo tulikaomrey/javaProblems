@@ -1,0 +1,13 @@
+//string builder and string formatting
+
+class HelloWorld {
+    public static void main(String[] args) {
+        //inefficient method
+        String info= " ";
+        info += "My name is Sheila";
+        info +="";
+        info +="I'm a builder";
+        System.out.println("info");
+        
+    }
+}
