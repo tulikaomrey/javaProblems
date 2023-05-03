@@ -1,0 +1,25 @@
+class Hello
+{
+    String name;
+    int age;
+    
+    int calculateRetirement()
+    {
+      int yearsleft=65-age;
+      return yearsleft;
+    }
+}
+
+
+public class Dynamic {
+
+	public static void main(String[] args) {
+		 Hello person1=new Hello();
+	        person1.age=23;
+	       int years= person1.calculateRetirement();
+	       System.out.println(years);
+		
+
+	}
+
+}
