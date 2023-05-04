@@ -1,0 +1,19 @@
+//strings
+
+class HelloWorld {
+    public static void main(String[] args) {
+        int myint=7;
+        string text="hello";
+        string blank=" ";
+        string name="Bob";
+        string greeting=text+blank+name
+        
+        System.out.println("greeting");
+        System.out.println("hello"+" "+"Bob");
+        System.out.println("my integer is:" +myint);
+        System.out.println("greeting");
+        double mydouble=7.8;
+        System.out.println("my number is:"+mydouble+".");
+        
+    }
+}
