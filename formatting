@@ -1,0 +1,17 @@
+/formatting
+
+class HelloWorld {
+    public static void main(String[] args) {
+        //formatting
+        System.out.println("Here is some text.\t That was a tab.\nHow are you");
+        //formatting integers
+         System.out.printf("value is %d ; quantity is : %d\n " ,7 , 50);
+         for (int i=0;i<20;i++)
+         {
+             System.out.printf("%2d:some text here \n", i);
+         }
+         //formatting floating point
+          System.out.printf("Total value : %.2f \n", 5.8765);
+         
+    }  
+    }
