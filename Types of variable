@@ -1,0 +1,37 @@
+lass Example
+{
+int x;//instance variable	
+static int y;//static variable
+public void func1() //instance member function
+{
+int a=30;//local variable
+int b=40;
+int c=a+b;
+System.out.println(c);
+}
+public static void func2()//static member function
+{
+	}
+static class Test//static inner class
+{
+int y;
+public static String country="INDIA";
+}
+}
+public class Static {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Example.y=10;
+		System.out.println(Example.y);//we can access static variable without creating object
+Example obj=new Example();
+obj.x=20;
+System.out.println(obj.x);
+obj.func1();
+Example.y=60;
+System.out.println(Example.y);
+Example.func2();
+System.out.println(Example.Test.country);
+	}
+
+}
