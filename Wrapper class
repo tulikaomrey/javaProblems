@@ -1,0 +1,14 @@
+public class Wrapper {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int i= Integer.valueOf(123);//valueof()function
+double d= Double.valueOf("3.14");
+System.out.println(d);
+System.out.println(i);
+int v=Integer.valueOf("10111",2);
+int a=Integer.parseInt("675");//to convert string to integer
+System.out.println(a);
+int c= v.intvalue();
+	}
+}	
