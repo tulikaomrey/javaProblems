@@ -1,0 +1,24 @@
+class Animal
+{
+	void eat() {
+		System.out.println("eating");
+	}
+
+}
+class Dog extends Animal
+{
+	void sleep() {
+		System.out.println("sleeping");
+	}
+}
+
+public class Inheritance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          Dog obj= new Dog();
+          obj.eat();
+
+	}
+
+}
