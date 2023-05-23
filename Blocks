@@ -1,0 +1,25 @@
+class Test
+{
+	Test(){
+		System.out.println("I am constructor");
+	}
+	{
+		System.out.println("I am instance block");
+	}
+	static
+	{
+		System.out.println("I am static block");
+	}
+}
+
+public class Instanceblock {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         Test t1= new Test();
+         
+        
+	}
+
+}
+
