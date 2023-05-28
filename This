@@ -1,0 +1,22 @@
+class Box
+{
+	private int l,b,h;
+	public void setDimensions(int l , int b, int h)
+	{
+		this.l=l;
+		this.b=b;
+		this.b=b;
+		
+	}
+}
+
+public class This {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Box obj=new Box();
+		obj.setDimensions(10,40,30);
+
+	}
+
+}
