@@ -1,0 +1,32 @@
+class x
+{
+	int z;
+	public void f1()
+	{
+		
+	}
+}
+class Y extends X
+{
+		public void f1()
+		{
+			int z;
+		super.f1();//by using this we can call theparent's method which is not possible in overriding
+		
+		}
+		public void f2()
+		{
+		int z=2;	
+		this.z=6;
+		super.z=5;
+		}
+}
+
+public class Super {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
