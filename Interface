@@ -1,0 +1,39 @@
+interface I1
+{
+void f1();	
+}
+interface I2
+{
+void f2();	
+}
+class G implements I1, I2
+{
+	public void f1()
+	{
+	System.out.println("i am f1");	
+	}
+	public void f2()
+	{
+	System.out.println("i am f2");	
+	}
+	public void f3()
+	{
+	System.out.println("i am f3");	
+	}
+}
+public class Interface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         G obj= new G();
+         I1 obj2=new G();//This is also possible
+         obj.f1();
+         obj.f2();
+         obj.f3();
+        
+         
+         
+         
+	}
+
+}
