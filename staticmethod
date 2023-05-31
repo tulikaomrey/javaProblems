@@ -1,0 +1,23 @@
+public class StringMethod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s1= new String("Computer");
+		int i= s1.indexOf('m');
+		System.out.println("index is " +i);//to find index of a character
+		System.out.println(s1);
+		String s2= s1.toUpperCase();//to change into upper case
+		System.out.println(s2);
+		s2= s1.toLowerCase();//to change into lower case
+		System.out.println(s2);
+		String s3= new String("hello");
+		String s4= new String ("hello");
+		if(s3.equals(s4))// to check if strings are equal
+		System.out.println("strings are same");
+		else
+	    System.out.println("not same");
+		
+
+	}
+
+}
