@@ -1,0 +1,37 @@
+final class Dummy//final class
+{
+	//this class can't be inherited ,no subclass can be made of this class
+}
+class Method
+{
+	public final void sync()//you can't override this method
+	{
+}
+	class Syncc extends Method
+	{
+	
+	{
+	}
+class Example
+{
+	private final int x;//final instance variable
+	private static int y=10;//final static member variable
+	{
+		x=5;//can be initialized like this
+	}
+	public void fun()
+	{
+		final int k;//final local variable
+		//k=k+1;//can;t be used before initialization
+	}
+}
+	
+public class Final {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+	   
